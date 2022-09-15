@@ -1,6 +1,5 @@
-from itertools import count
-import numpy as np
 from tensorflow import keras
+import numpy as np
 import cv2
 from glob import glob
 import os
@@ -64,6 +63,6 @@ def lungBrainCheck(path):
 # for ans in listAns:
 #   print(ans)
   
-# t = lungBrainCheck("D:/SCIENTIFIC RESEARCH/Lung Cancer/Datasets/test/4_Brain Tumor yes/Y33.jpg")
+t = lungBrainCheck("./Datasets/test/4_Brain Tumor yes/Y33.jpg")
 
-# print(t)
+print(t)
