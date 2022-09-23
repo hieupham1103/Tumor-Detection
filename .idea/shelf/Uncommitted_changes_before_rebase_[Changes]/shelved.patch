@@ -1,0 +1,19 @@
+Index: pred.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from tensorflow import keras\nimport numpy as np\nimport cv2\nfrom glob import glob\nimport os\n\nmodelLung = keras.models.load_model('lungcancer.h5')\nmodelLung.summary()\nmodelLung.compile(\n  loss='categorical_crossentropy',\n  optimizer='adam',\n  metrics=['accuracy']\n)\n\nmodelLB = keras.models.load_model('x.h5')\nmodelLB.summary()\nmodelLB.compile(\n  loss='categorical_crossentropy',\n  optimizer='adam',\n  metrics=['accuracy']\n)\n\n\n\ndef lungCheck(path):\n  img1 = cv2.imread(path)\n  img1 = cv2.resize(img1,(224, 224))\n  img1 = np.reshape(img1,[1,224,224,3])\n\n  res1 = modelLung.predict(img1)\n  \n  return res1[0]\n\ndef lungBrainCheck(path):\n  img1 = cv2.imread(path)\n  img1 = cv2.resize(img1,(224, 224))\n  img1 = np.reshape(img1,[1,224,224,3])\n\n  res1 = modelLB.predict(img1)\n  \n  return res1[0]\n\n\n# listAns = []\n\n# for x in os.listdir(\"./Datasets/train/\"):\n#   countNone = 0\n#   countHad = 0  \n#   url_list = glob(f\"./Datasets/test/{x}/*.jpeg\")\n#   # print(url_list)\n#   for file in url_list:\n#     res = lungCheck(file);    \n#     a = np.around(res[0])\n#     b = np.around(res[1])\n#     # print(a, b)\n#     if a == 1:\n#       countNone += 1\n#     else:\n#       countHad += 1\n      \n#   listAns.append(f\"{countNone} {countHad}\")\n  \n# for ans in listAns:\n#   print(ans)\n  \nt = lungBrainCheck(\"./Datasets/test/4_Brain Tumor yes/Y33.jpg\")\n\nprint(t)
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pred.py b/pred.py
+--- a/pred.py	(revision 1788dd383f6bed69fa5bfce3556f9164b9d9bbee)
++++ b/pred.py	(date 1663286850111)
+@@ -63,6 +63,6 @@
+ # for ans in listAns:
+ #   print(ans)
+   
+-t = lungBrainCheck("./Datasets/test/4_Brain Tumor yes/Y33.jpg")
++t = lungBrainCheck("./INPUT/true1.jpeg")
+ 
+ print(t)
+\ No newline at end of file

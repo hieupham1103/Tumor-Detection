@@ -63,6 +63,6 @@ def lungBrainCheck(path):
 # for ans in listAns:
 #   print(ans)
   
-t = lungBrainCheck("./Datasets/test/4_Brain Tumor yes/Y33.jpg")
+t = lungBrainCheck("INPUT/true1.jpeg")
 
 print(t)
