@@ -3,11 +3,13 @@ from keras.models import Model
 from keras.applications.vgg16 import VGG16
 from keras.preprocessing.image import ImageDataGenerator
 from glob import glob
+import tensorflow as tf
 
 size = [224, 224]
 
 
 def trainning():
+    print(len(tf.config.list_physical_devices('GPU')))
     vgg = VGG16(input_shape=size + [3], weights='imagenet', include_top=False)
 
     for layer in vgg.layers:
