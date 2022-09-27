@@ -7,6 +7,6 @@ st.sidebar.markdown("# Dự đoán một bênh nhân")
 
 image_file = st.file_uploader("Upload Images", type=["png","jpg","jpeg"])
 if image_file is not None:
-    if st.button('PREDICT'):
+    if st.button('KEETS'):
         res = package.predict.getPredictImg(image_file)
         st.write(res)
