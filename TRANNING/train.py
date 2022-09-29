@@ -17,7 +17,8 @@ def trainning():
 
     folders = glob('Datasets/train/*')
     temp = Flatten()(vgg.output)
-    prediction = Dense(len(folders), activation='softmax')(temp)
+    prediction = Dense(len(folders),
+    activation='softmax')(temp)
 
     model = Model(inputs=vgg.input, outputs=prediction)
     model.summary()

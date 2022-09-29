@@ -10,7 +10,7 @@ from PIL import Image
 import streamlit as st
 
 
-modelLung = keras.models.load_model('./package/Model/model-27-9-2022-1.h5')
+modelLung = keras.models.load_model('./package/Model/LungAndBrain.h5')
 modelLung.summary()
 modelLung.compile(
     loss='categorical_crossentropy',

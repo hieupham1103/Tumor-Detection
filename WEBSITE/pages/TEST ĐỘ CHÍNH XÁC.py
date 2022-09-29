@@ -7,7 +7,7 @@ st.markdown("# BÁO CÁO QUÁ TRÌNH TRAINNING")
 st.markdown("## TIẾN HÀNH CHẠY THỬ TRÊN BỘ DỮ LIỆU")
 
 
-num = st.slider('Số lượng file của bộ dữ liệu:', 1, 100)
+num = st.slider('Số lượng file của bộ dữ liệu:', 1, 260)
 
 option = st.selectbox(
     'TIẾN HÀNH CHẠY THỬ TRÊN BỘ DỮ LIỆU',
