@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91af3a07-6cd3-42f7-995e-9276162f8591" name="Changes" comment="edit something to run on macos M1">
-      <change beforePath="$PROJECT_DIR$/.idea/Tumor-Detection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Tumor-Detection.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" beforeDir="false" />
+    <list default="true" id="78cc3159-94b2-44b7-bf6f-7bd4b43bd2dd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/WEBSITE/package/cascade.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEBSITE/pages/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEBSITE/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEBSITE/pages/one_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/WEBSITE/pages/one_predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Báo cáo khoa học kĩ thuật.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Báo cáo khoa học kĩ thuật.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TRANNING/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/TRANNING/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEBSITE/package/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/WEBSITE/package/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEBSITE/pages/DEMO SẢN PHẨM.py" beforeDir="false" afterPath="$PROJECT_DIR$/WEBSITE/pages/DEMO SẢN PHẨM.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +22,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
-  </component>
-  <component name="ProjectId" id="2EoBuLwJBJKeABVkTVvYzEuCBsp" />
+  <component name="ProjectId" id="2Fg2Ebtyxu2Y7vt9avh9BDP8Gxt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,34 +36,20 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/TRANNING" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/WEBSITE/package" />
+      <recent name="$PROJECT_DIR$/WEBSITE/package/Model" />
+      <recent name="$PROJECT_DIR$/WEBSITE" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="91af3a07-6cd3-42f7-995e-9276162f8591" name="Changes" comment="" />
-      <created>1663252277590</created>
+      <changelist id="78cc3159-94b2-44b7-bf6f-7bd4b43bd2dd" name="Changes" comment="" />
+      <created>1664899295629</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1663252277590</updated>
+      <updated>1664899295629</updated>
     </task>
-    <task id="LOCAL-00001" summary="edit something to run on macos M1">
-      <created>1663253825886</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1663253825886</updated>
-    </task>
-    <task id="LOCAL-00002" summary="edit something to run on macos M1">
-      <created>1663253893427</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1663253893427</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,8 +63,20 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="edit something to run on macos M1" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit something to run on macos M1" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WEBSITE/package/predict.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WEBSITE/package/predict.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

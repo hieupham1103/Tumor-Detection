@@ -46,12 +46,12 @@ def trainning():
     model.fit(
         training_set,
         validation_data=test_set,
-        epochs=5,
+        epochs=1,
         steps_per_epoch=len(training_set),
         validation_steps=len(test_set)
     )
 
-    model.save('model-23-9-2022-1.h5')
+    model.save('model-8-10-2022-1.h5')
 
 
 trainning()

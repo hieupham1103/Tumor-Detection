@@ -5,8 +5,8 @@ import numpy as np
 import cv2
 import pandas
 from glob import glob
-import os
 from PIL import Image
+from matplotlib import cm
 import streamlit as st
 
 
@@ -51,6 +51,7 @@ def getPredictPath(path):
     img1 = cv2.imread(path)
     img1 = cv2.resize(img1,(224, 224))
     img1 = np.reshape(img1,[1,224,224,3])
+
     res = modelLung.predict(img1)
     res = res[0]
     type = 0
@@ -94,3 +95,26 @@ def runAllDataSet(type, num):
     
     st.dataframe(df)
     st.metric(label="Tỉ lệ chính xác", value = str(correct / total * 100) + "%")
+
+def DetectTumor(img):
+    img = load_img(img, target_size=(255, 255))
+    oimg = img
+    img = np.array(img)
+    # img = np.array(img.getdata()).reshape(img.size[0], img.size[1], 3)
+
+    # print(type(img))
+    # gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    # gray_img = (gray_img * 255).astype(np.uint8)
+    # #
+    detector = cv2.CascadeClassifier('./package/cascade-brain.xml')
+    rect = detector.detectMultiScale(img, 1.1, 9)
+    # st.write(rect)
+    for (x, y, w, h) in rect:
+        cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2)
+
+    # cv2.imshow('Detected faces', img)
+    # img = Image.fromarray(np.uint8(cm.gist_earth(img) * 255))
+    # oimg = Image.fromarray((oimg * 255).astype(np.uint8))
+
+    return img
+
