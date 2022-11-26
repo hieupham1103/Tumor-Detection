@@ -10,7 +10,7 @@ from matplotlib import cm
 import streamlit as st
 
 
-modelLung = keras.models.load_model('./package/Model/LungAndBrain.h5')
+modelLung = keras.models.load_model('./package/Model/old.h5')
 modelLung.summary()
 modelLung.compile(
     loss='categorical_crossentropy',
