@@ -1,3 +1,4 @@
+from tensorflow import keras
 from keras.layers import Dense, Flatten
 from keras.models import Model
 from keras.applications.vgg16 import VGG16
@@ -51,7 +52,7 @@ def trainning():
         validation_steps=len(test_set)
     )
 
-    model.save('model-8-10-2022-1.h5')
+    model.save('model-27-11-2022-1.h5')
 
 
 trainning()
