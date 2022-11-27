@@ -21,6 +21,9 @@ if image_files is not None:
                 img = package.predict.DetectTumor(file)
                 title = file.name
                 listIMG.append((img, title))
+                # lạy chúa tôi sao nó k chạy:((((
+                # để cmt ở đây để khi nào quay lại fix
+                # nó chạy rồi:)))
                 # st.write(package.predict.DetectTumor(image_files))
             countRow += 1
 

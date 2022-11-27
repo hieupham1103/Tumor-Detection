@@ -40,7 +40,10 @@ def predict(img):
     res = res[0]
     type = [0, 0, 0, 0]
     ratio = 0
-    if (round(res[0]) == 1):
+    #bằng một cách thần kì nào đó nó đã hoạt dộng
+
+    #modelSplit 0-> Brain 1->Lung
+    if round(res[0]) == 1:
         ratio = res[0]
         res = modelBetterforBrain.predict(img)
         res = res[0]

@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78cc3159-94b2-44b7-bf6f-7bd4b43bd2dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WEBSITE/package/Model/All-27-11-2022-1.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEBSITE/package/Model/Brain-27-11-2022-1.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEBSITE/package/Model/Lung-27-11-2022-1.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEBSITE/package/Model/model-27-11-2022-1.h5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TRANNING/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/TRANNING/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEBSITE/Y1.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WEBSITE/package/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/WEBSITE/package/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEBSITE/pages/DEMO SẢN PHẨM.py" beforeDir="false" afterPath="$PROJECT_DIR$/WEBSITE/pages/DEMO SẢN PHẨM.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,12 +68,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/WEBSITE/package/predict.py</url>
-          <line>107</line>
+          <line>110</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/WEBSITE/package/predict.py</url>
-          <line>102</line>
+          <line>105</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
