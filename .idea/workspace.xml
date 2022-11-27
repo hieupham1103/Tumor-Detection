@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78cc3159-94b2-44b7-bf6f-7bd4b43bd2dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WEBSITE/package/cascade.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEBSITE/pages/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEBSITE/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEBSITE/package/Model/All-27-11-2022-1.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEBSITE/package/Model/Brain-27-11-2022-1.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEBSITE/package/Model/Lung-27-11-2022-1.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEBSITE/package/Model/model-27-11-2022-1.h5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Báo cáo khoa học kĩ thuật.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Báo cáo khoa học kĩ thuật.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TRANNING/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/TRANNING/train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WEBSITE/package/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/WEBSITE/package/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEBSITE/pages/DEMO SẢN PHẨM.py" beforeDir="false" afterPath="$PROJECT_DIR$/WEBSITE/pages/DEMO SẢN PHẨM.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,16 +27,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/hieuphamdinhtrung/Tumor-Detection/WEBSITE/package/Model"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/WEBSITE/package" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/WEBSITE/package/Model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WEBSITE/package/Model" />
+      <recent name="$PROJECT_DIR$/WEBSITE/package" />
       <recent name="$PROJECT_DIR$/WEBSITE" />
     </key>
   </component>
@@ -68,13 +71,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/WEBSITE/package/predict.py</url>
-          <line>67</line>
+          <line>107</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/WEBSITE/package/predict.py</url>
-          <line>62</line>
+          <line>102</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TRANNING/train.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

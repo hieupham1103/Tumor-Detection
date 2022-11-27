@@ -16,7 +16,7 @@ def trainning():
     for layer in vgg.layers:
         layer.trainable = False
 
-    folders = glob('Datasets/train/*')
+    folders = glob('DatasetsBrain/train/*')
     temp = Flatten()(vgg.output)
     prediction = Dense(len(folders),
     activation='softmax')(temp)
@@ -35,11 +35,11 @@ def trainning():
                                        horizontal_flip=True)
     test_datagen = ImageDataGenerator(rescale=1./255)
 
-    training_set = train_datagen.flow_from_directory('Datasets/train',
+    training_set = train_datagen.flow_from_directory('DatasetsBrain/train',
                                                      target_size=(224, 224),
                                                      batch_size=32,
                                                      class_mode='categorical')
-    test_set = test_datagen.flow_from_directory('Datasets/test',
+    test_set = test_datagen.flow_from_directory('DatasetsBrain/test',
                                                 target_size=(224, 224),
                                                 batch_size=32,
                                                 class_mode='categorical')
@@ -52,7 +52,7 @@ def trainning():
         validation_steps=len(test_set)
     )
 
-    model.save('model-27-11-2022-1.h5')
+    model.save('Brain-27-11-2022-2.h5')
 
 
 trainning()
