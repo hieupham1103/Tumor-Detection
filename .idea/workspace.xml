@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="78cc3159-94b2-44b7-bf6f-7bd4b43bd2dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEBSITE/Y1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEBSITE/package/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/WEBSITE/package/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEBSITE/pages/DEMO SẢN PHẨM.py" beforeDir="false" afterPath="$PROJECT_DIR$/WEBSITE/pages/DEMO SẢN PHẨM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Báo cáo khoa học kĩ thuật.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Báo cáo khoa học kĩ thuật.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TRANNING/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/TRANNING/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEBSITE/pages/TEST ĐỘ CHÍNH XÁC.py" beforeDir="false" afterPath="$PROJECT_DIR$/WEBSITE/pages/TEST ĐỘ CHÍNH XÁC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hồ sơ.docx" beforeDir="false" afterPath="$PROJECT_DIR$/hồ sơ.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$hồ sơ.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
